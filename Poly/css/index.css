@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2? family=Roboto&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: white;
+    overflow-x: hidden;
+}
+
+/*
+====================Header============================
+ */
+#containerHeader {
+    background-color: #1b2a4e !important;
+    color: white;
+}
+
+/*
+====================menu============================
+ */
+
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+.imgCarrusel {
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    margin: 0% auto;
+    margin-top: 50px;
+}
+
+/*
+    ===============Servicios=====================
+*/
+#containerServicios {
+    background-color: #1b2a4e;
+    color: white;
+}
+
+/*
+    ===============Mapa=====================
+*/
+.mapa {
+    background: url(../images/guancaste.jpg);
+    width: 30%;
+    height: 500px;
+    margin: auto;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+
+
+}
+
+
+#local {
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+#numero-local div {
+    padding: 0 20px 0 0;
+    height: 48px;
+}
+
+#numero-local div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+}
+
+#numero-local div:not(:first-child) {
+    padding-left: 20px;
+}
+
+#numero-local p {
+    margin: 0;
+
+}
+
+/*
+    ===============Contacto=====================
+*/
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.titulo-formulario {
+    color: #3f3f3f;
+}
+
+#imgContacto {
+    width: 197px;
+    height: 214px;
+}
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3 !important;
+}
+
+
+
+
+
+/*
+    ===============Media Queries Pantalla SM=====================
+*/
+@media (max-width:768px) {
+
+    #intro,
+    #equipo {
+        width: 90% !important;
+    }
+
+    #equipo p {
+        display: none;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #bg-contacto {
+
+        top: -110px;
+    }
+
+    .imgCarrusel {
+        width: 60px;
+        height: 90px;
+        border-radius: 90%;
+        margin: 0% auto;
+        margin-top: 50px;
+    }   
+
+}
+
+/*
+    ===============Media Queries Pantalla Extra-SM=====================
+*/
+@media (max-width:575px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+/*
+    ===============Media Queries Pantalla Ancha=====================
+*/
+@media (max-width:1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+        
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 10px !important;
+    }
+    .mapa {
+        background: url(../images/guancaste.jpg);
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        margin-top: 10px;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Login{
+    background-image: url(../images/header-background.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;    
+    padding-top: 50px;
+}
+.containerLogin{
+    display: block;  
+    width: 250px;
+    height: 510px;
+    background-color: #2B7697;
+    margin: 0% auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.containerLogoHeader{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 30px;
+}
+.imgLogo{
+    width: 90px;
+    height: 102px;
+}
+.TitleLogo{
+    color: white;
+}
+.btnLogin{
+    display: block;
+    width: 170px;
+    height: 35px;    
+    margin: 0% auto;   
+    border-radius: 20px;      
+}
+.btnLogin:hover{
+    display: block;   
+    background-color: rgba(0,0,0,0.1);
+}
+.facebook,.instagram,.linkedin{
+    color: white;
+    margin-left: 10px;
+}
+.containerLogoFooter{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
+}
+.paragraph{
+    margin-top: 50px;
+}
+.btnD{
+    width: 150px;
+    height: 35px;
+    display: block;
+    color: white;
+    background-color: red; 
+    margin: 0% auto;  
+    margin-top: 10px;
+    border-radius: 20px; 
+    
+}
+.bi{
+    
+    margin-right: 4px;
+}
+.container__slider{
+    width: 100%;  
+    margin: 0 auto;    
+    background-color: #F7FAFD;
+
+}
+.imgCarrusel{
+    width: 60px;
+    height: 90px;
+    border-radius: 90%;
+    margin: 0% auto;    
+}
+.imgc{
+    margin-top: 20px;
+}
+.publicidad{    
+    display: block;    
+    background-color: #0587B9;
+    padding-top: 30px;   
+    text-align: center;  
+    padding-bottom: 50px; 
+}
+.card1{    
+    width: 80%;
+    height: 350px;
+    background-color:white;
+    border-radius: 15px;
+    margin: 0% auto;
+    margin-bottom: 50px;
+    background-size: cover;   
+}
+.subtitle{
+    border-bottom: 1px solid ;
+}
+.containerContact{   
+    background-color: #F7FAFD; 
+    padding-top:30px;
+    text-align: center; 
+    padding-bottom: 70px;   
+}
+.containerFooter{   
+    height: 250px;
+    background-color: #0587B9;
+    position: relative;
+    
+}
+.facebookf,.instagramf,.linkedinf{
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: white;
+    margin-left: 10px; 
+    background-color: white;
+    border-radius: 50px;
+}
+.imgInstagram{
+    position: absolute;
+    left: 85px;
+    margin-top: 18px;
+    width: 45px;
+    height: 35px;
+}
+.imgLinkedin{
+    position: absolute;
+    left: 176px;
+    margin-top: 15px;
+    width: 45px;
+    height: 35px;
+}
+.imgFacebook{
+    position: absolute;
+    left: 264px;
+    margin-top: 18px;
+    width: 46px;
+    height: 35px;
+}
+.containerBtn{
+    margin-top: 10px;
+    border-top: 1px solid ;
+    text-align: center;
+    color: whitesmoke;
+}
+.btnf{
+    width: 200px;
+    height: 35px;
+    display: block;
+    color: white;  
+    margin: 0% auto;  
+    margin-top: 10px;
+    border-radius: 20px; 
+    
+}
+.linkContact{    
+    margin-left: 10px;
+} */

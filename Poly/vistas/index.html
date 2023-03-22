@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="container-fluid d-flex justify-content-center" id="containerHeader">
+        <p class="text-light mb-0 fs-5">Contactanos +506 6086-7893</p>
+    </header>
+    <nav class="navbar n navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../images/favicon.png" alt="">
+                <label for="">Poly</label>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#">Descripcion </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Detalles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Drop</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item page-scroll" href="project.html">Project Details</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------------------ Slider-------->
+    <section class="carrusel">
+        <div class="container__slider">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active imgc">
+                        <img src="../images/testimonial-1.jpg" class="d-block  imgCarrusel" alt="...">
+                        <div class=" d-md-block" style="text-align: center;">
+                            <h5 style="color: red;">Genesis Ruiz</h5>
+                            <p>Expecialista en Marketing </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item imgc">
+                        <img src="../images/testimonial-2.jpg" class="d-block  imgCarrusel" alt="...">
+                        <div class=" d-md-block" style="text-align: center;">
+                            <h5 style="color: red;">Alberth Ruiz</h5>
+                            <p>Expecialista en Web</p>
+                        </div>
+                    </div>.
+                    <div class="carousel-item imgc">
+                        <img src="../images/testimonial-3.jpg" class="d-block imgCarrusel" alt="...">
+                        <div class=" d-md-block" style="text-align: center;">
+                            <h5 style="color: red;">Xinia Jimenez</h5>
+                            <p>Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">atras</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">siguinente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------ Intro-------->
+    <section class="intro w-50 mx-auto text-center pt-5 " id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Una agencia unica para todas tus necesidades de
+
+            <span class="text-primary">Markiting Digital</span>
+        </h1>
+        <p class="p-3 fs-4 "><span class="text-primary">Poly</span> es la agencia donde te ayudamos a establecer tu presecencia online paginas Web,
+        tiendas virtuales, redes sociales, administrador de base de datos</p>
+    </section>
+
+    <!-- ------------------------ Servicios-------->
+    <section class="container-fluid border-bottom border-2" id="containerServicios">
+        <div class="row w-75 mx-auto servicio-fila ">
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5 d-flex icono-wrap">
+                <img src="../images/Desarrollo.jpg" alt="Desarrollo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
+                    <p class="px-4">Desarrollo de aplicaiones Web, moviles y ecommerce</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5 d-flex icono-wrap">
+                <img src="../images/comunicaciones.png" alt="Comunicaciones" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Comunicaciones</h3>
+                    <p class="px-4">Desarrollo de plan para sus clientes</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5 d-flex icono-wrap">
+                <img src="../images/red social.png" alt="Markiting" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Redes Sociales</h3>
+                    <p class="px-4">Desarrollo de Markiting </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5 d-flex  icono-wrap">
+                <img src="../images/sql.jpg" alt="Sql Server" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Sql Server</h3>
+                    <p class="px-4">Administrador de Base de Datos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------ Acerca de nosotros------ -->
+    <section>
+        <div class="w-75 m-auto text-center pt-5" id="equipo">
+            <h1 class="mb-5 fs-2">Equipo pequeño con <span class=" text-primary">resultados Grandes</span></h1>
+            <p class="fs-4">Siempre buscamos las personas adecuadas para que trabajen con nostros. Si
+                te sientes listos para este reto, te esperamos para que te unas a nostros</p>
+            <div class=" mt-5 text-center">
+                <img class="img-fluid" src="../images/nosotros.jpg" alt="">
+            </div>
+        </div>
+        <div id="local" class="border-top border-2">
+            <div class="mapa"> </div>
+            <div>
+                <div class="wrapper">
+                    <h2>Ubicacion en Guancaste, Liberia</h2>
+                    <h2 class="text-primary mb-4" id="typewriter"></h2>
+                    <p class=" fs-5 text-body">Elegimos Liberia para nuestras oficina centrales con el
+                        objetivo de estar a nuestro clientes
+                    </p>
+                    <section class="d-flex" id="numero-local">
+                        <div>
+                            <p class="text-primary fs-5">248</p>
+                            <p>Dias de sol</p>
+                        </div>
+                        <div>
+                            <p class="text-primary fs-5">100%</p>
+                            <p>Aprobado</p>
+                        </div>
+                        <div>
+                            <p class="text-primary fs-5">24</p>
+                            <p> Temperatura</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ------------------------ Formulario-BG------ -->
+    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+        <div id="bg-contacto">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,160L120,186.7C240,213,480,267,720,245.3C960,224,1200,128,1320,80L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+        </div>
+        <!-- ------------------------ Formulario------ -->
+        <div class="container " id="contenedor-formulario">
+            <div id="titulo-formulario" class="titulo-formulario text-center mb-4">
+                <div>
+                    <img src="../images/soporte.png" alt="contacto" class="img-fluid " id="imgContacto">
+                    <h2>Contactos</h2>
+                    <p class="fs-5">Estamos aqui para hacer realidad de tus proyectos</p>
+
+                </div>
+            </div>
+            <form action="">
+                <div class="mb-3">                    
+                    <input type="email" class="form-control" id="email"
+                        placeholder="nombre@ejemplo.com" required>
+                </div>
+                <div class="mb-3">                    
+                    <input type="text" class="form-control" id="nombre"
+                        placeholder="Luis Lopez" required>
+                </div>
+                <div class="mb-3">                    
+                    <input type="text" class="form-control" id="tel"
+                        placeholder="0000-0000" required>
+                </div>
+                <div class="mb-3">                  
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Escribe tu consulta"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button type="button" class=" btn btn-primary w-100 fs-5" >Enviar Mensaje</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- ------------------------ footer------ -->
+    <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+        <p class=" fs-5 px-3 pt-3"> Poly. &copy; Todos los Derechos Reservados 2023</p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-instagram text-light"></i></a>
+            <a href="#"><i class="bi bi-facebook text-light"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-light"></i></a>
+        </div>    
+    </footer>
+
+    <!-- ------------------------ Bootstrap------ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- ------------------------ Bootstrap------ -->
+
+    <script src="../Js/index.js"></script>
+</body>
+
+</html>
